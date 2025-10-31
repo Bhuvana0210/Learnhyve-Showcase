@@ -2,67 +2,124 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>LearnHyve Showcase — Bhuvana Sinchana Odiyoor</title>
     <script src="https://cdn.tailwindcss.com"></script>
   </head>
 
   <body class="bg-gray-50 text-gray-800 font-sans">
-    <section class="min-h-screen flex flex-col items-center justify-start p-6">
+    <section class="min-h-screen flex flex-col items-center justify-start p-4 sm:p-6 md:p-8">
       <!-- Header -->
-      <header class="mt-12 mb-10 text-center max-w-2xl">
-        <h1 class="text-4xl font-extrabold bg-gradient-to-r from-indigo-600 to-purple-600 bg-clip-text text-transparent">
+      <header class="mt-12 sm:mt-16 mb-8 sm:mb-12 text-center max-w-full sm:max-w-3xl px-2 sm:px-4">
+        <h1
+          class="text-3xl sm:text-4xl md:text-5xl font-extrabold bg-gradient-to-r from-indigo-600 to-purple-600 bg-clip-text text-transparent leading-tight"
+        >
           LearnHyve Project Showcase
         </h1>
-        <p class="text-gray-600 mt-3">
+        <p class="text-gray-600 mt-3 text-sm sm:text-base md:text-lg max-w-full sm:max-w-xl mx-auto px-2 sm:px-0">
           A collection of modular React & Next.js pages built with Tailwind CSS, Framer Motion, and GSAP.
         </p>
       </header>
 
       <!-- Project Grid -->
-      <div class="grid gap-8 md:grid-cols-2 lg:grid-cols-3 w-full max-w-5xl">
-        <a href="https://v0-learnhyve-home-page.vercel.app" target="_blank"
-           class="p-6 bg-white rounded-2xl shadow-md hover:shadow-xl transition transform hover:-translate-y-1 text-center">
-          <!-- <img src="assets/thumb-home.png" alt="Home Page" class="w-full h-40 object-cover rounded-lg mb-4"> -->
-          <h3 class="text-xl font-semibold text-indigo-600">🏠 Home Page</h3>
-          <p class="text-gray-500 text-sm mt-2">Animated hero & scroll-triggered transitions.</p>
+      <div
+        class="grid gap-6 sm:gap-8 md:gap-10 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 w-full max-w-full sm:max-w-6xl px-2 sm:px-4"
+      >
+        <a
+          href="https://v0-learnhyve-home-page.vercel.app"
+          target="_blank"
+          class="p-6 sm:p-8 bg-white rounded-2xl sm:rounded-3xl shadow-md sm:shadow-lg hover:shadow-xl transition-transform transform hover:-translate-y-1 sm:hover:-translate-y-2 text-center flex flex-col items-center"
+        >
+          <!-- <img src="assets/thumb-home.png" alt="Home Page" class="w-full h-40 object-cover rounded-lg mb-4" /> -->
+          <h3 class="text-lg sm:text-xl md:text-2xl font-semibold text-indigo-600 mb-2 sm:mb-3">
+            🏠 Home Page
+          </h3>
+          <p class="text-gray-500 text-xs sm:text-sm md:text-base">
+            Animated hero & scroll-triggered transitions.
+          </p>
         </a>
 
-        <a href="https://v0-learnhyve-about-page.vercel.app" target="_blank"
-           class="p-6 bg-white rounded-2xl shadow-md hover:shadow-xl transition transform hover:-translate-y-1 text-center">
-          <!-- <img src="assets/thumb-about.png" alt="About Page" class="w-full h-40 object-cover rounded-lg mb-4"> -->
-          <h3 class="text-xl font-semibold text-indigo-600">🧭 About Page</h3>
-          <p class="text-gray-500 text-sm mt-2">Team vision, mission, and story layout.</p>
+        <a
+          href="https://v0-learnhyve-about-page.vercel.app"
+          target="_blank"
+          class="p-6 sm:p-8 bg-white rounded-2xl sm:rounded-3xl shadow-md sm:shadow-lg hover:shadow-xl transition-transform transform hover:-translate-y-1 sm:hover:-translate-y-2 text-center flex flex-col items-center"
+        >
+          <!-- <img src="assets/thumb-about.png" alt="About Page" class="w-full h-40 object-cover rounded-lg mb-4" /> -->
+          <h3 class="text-lg sm:text-xl md:text-2xl font-semibold text-indigo-600 mb-2 sm:mb-3">
+            🧭 About Page
+          </h3>
+          <p class="text-gray-500 text-xs sm:text-sm md:text-base">
+            Team vision, mission, and story layout.
+          </p>
         </a>
 
-        <a href="https://v0-learnhyve-feature-page.vercel.app" target="_blank"
-           class="p-6 bg-white rounded-2xl shadow-md hover:shadow-xl transition transform hover:-translate-y-1 text-center">
-          <!-- <img src="assets/thumb-feature.png" alt="Feature Page" class="w-full h-40 object-cover rounded-lg mb-4"> -->
-          <h3 class="text-xl font-semibold text-indigo-600">⚙️ Feature Page</h3>
-          <p class="text-gray-500 text-sm mt-2">Highlights product capabilities & benefits.</p>
+        <a
+          href="https://v0-learnhyve-feature-page.vercel.app"
+          target="_blank"
+          class="p-6 sm:p-8 bg-white rounded-2xl sm:rounded-3xl shadow-md sm:shadow-lg hover:shadow-xl transition-transform transform hover:-translate-y-1 sm:hover:-translate-y-2 text-center flex flex-col items-center"
+        >
+          <!-- <img src="assets/thumb-feature.png" alt="Feature Page" class="w-full h-40 object-cover rounded-lg mb-4" /> -->
+          <h3 class="text-lg sm:text-xl md:text-2xl font-semibold text-indigo-600 mb-2 sm:mb-3">
+            ⚙️ Feature Page
+          </h3>
+          <p class="text-gray-500 text-xs sm:text-sm md:text-base">
+            Highlights product capabilities & benefits.
+          </p>
         </a>
 
-        <a href="https://v0-learnhyve-blog-page.vercel.app" target="_blank"
-           class="p-6 bg-white rounded-2xl shadow-md hover:shadow-xl transition transform hover:-translate-y-1 text-center">
-          <!-- <img src="assets/thumb-blog.png" alt="Blog Page" class="w-full h-40 object-cover rounded-lg mb-4"> -->
-          <h3 class="text-xl font-semibold text-indigo-600">📰 Blog Page</h3>
-          <p class="text-gray-500 text-sm mt-2">Dynamic blog card layout & animation.</p>
+        <a
+          href="https://v0-learnhyve-blog-page.vercel.app"
+          target="_blank"
+          class="p-6 sm:p-8 bg-white rounded-2xl sm:rounded-3xl shadow-md sm:shadow-lg hover:shadow-xl transition-transform transform hover:-translate-y-1 sm:hover:-translate-y-2 text-center flex flex-col items-center"
+        >
+          <!-- <img src="assets/thumb-blog.png" alt="Blog Page" class="w-full h-40 object-cover rounded-lg mb-4" /> -->
+          <h3 class="text-lg sm:text-xl md:text-2xl font-semibold text-indigo-600 mb-2 sm:mb-3">
+            📰 Blog Page
+          </h3>
+          <p class="text-gray-500 text-xs sm:text-sm md:text-base">
+            Dynamic blog card layout & animation.
+          </p>
         </a>
 
-        <a href="https://v0-learnhyve-support-page.vercel.app" target="_blank"
-           class="p-6 bg-white rounded-2xl shadow-md hover:shadow-xl transition transform hover:-translate-y-1 text-center">
-          <!-- <img src="assets/thumb-support.png" alt="Support Page" class="w-full h-40 object-cover rounded-lg mb-4"> -->
-          <h3 class="text-xl font-semibold text-indigo-600">💬 Support Page</h3>
-          <p class="text-gray-500 text-sm mt-2">Contact & help section for user queries.</p>
+        <a
+          href="https://v0-learnhyve-support-page.vercel.app"
+          target="_blank"
+          class="p-6 sm:p-8 bg-white rounded-2xl sm:rounded-3xl shadow-md sm:shadow-lg hover:shadow-xl transition-transform transform hover:-translate-y-1 sm:hover:-translate-y-2 text-center flex flex-col items-center"
+        >
+          <!-- <img src="assets/thumb-support.png" alt="Support Page" class="w-full h-40 object-cover rounded-lg mb-4" /> -->
+          <h3 class="text-lg sm:text-xl md:text-2xl font-semibold text-indigo-600 mb-2 sm:mb-3">
+            💬 Support Page
+          </h3>
+          <p class="text-gray-500 text-xs sm:text-sm md:text-base">
+            Contact & help section for user queries.
+          </p>
         </a>
       </div>
 
       <!-- Footer -->
-      <footer class="mt-16 text-gray-500 text-sm text-center">
-        © 2025 LearnHyve Showcase | Built by <b>Bhuvana Sinchana Odiyoor</b><br />
-        <a href="mailto:sinchanaodiyoor@gmail.com" class="underline hover:text-indigo-600">sinchanaodiyoor@gmail.com</a> •
-        <a href="https://github.com/your-github" class="underline hover:text-indigo-600" target="_blank">GitHub</a> •
-        <a href="https://linkedin.com/in/your-linkedin" class="underline hover:text-indigo-600" target="_blank">LinkedIn</a>
+      <footer
+        class="mt-16 mb-8 text-gray-500 text-xs sm:text-sm text-center px-2 sm:px-4 max-w-full sm:max-w-3xl"
+      >
+        <p>© 2025 LearnHyve Showcase | Built by <b>Bhuvana Sinchana Odiyoor</b></p>
+        <p class="mt-2 flex justify-center space-x-4">
+          <a
+            href="mailto:sinchanaodiyoor@gmail.com"
+            class="underline hover:text-indigo-600"
+            >sinchanaodiyoor@gmail.com</a
+          >
+          <a
+            href="https://github.com/your-github"
+            target="_blank"
+            class="underline hover:text-indigo-600"
+            >GitHub</a
+          >
+          <a
+            href="https://linkedin.com/in/your-linkedin"
+            target="_blank"
+            class="underline hover:text-indigo-600"
+            >LinkedIn</a
+          >
+        </p>
       </footer>
     </section>
   </body>
